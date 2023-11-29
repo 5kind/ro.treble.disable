@@ -25,3 +25,6 @@
 
 ### Usage
 - Install install.zip by Magisk/KernelSU.
+
+### Notice
+- If you use a soft reboot, error report will come back since we [resetprop ro.treble.enabled](./service.sh) true when later-start, you can just delete serivce.sh.
